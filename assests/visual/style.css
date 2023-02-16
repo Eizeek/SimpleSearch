@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #F0C27B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+}
+h3{
+
+
+
+    font-size: 48px;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(#03f172, #08b8e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#searchInput{
+    width: 50%;
+    font-size: 20px;
+    padding: 12px 20px 12px 30px;
+    border: 3px solid #03f457;
+    margin-bottom: 12px;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+#namesList li {
+    border: 1px solid #ddd;
+    background: -webkit-linear-gradient(#03f172, #08b8e4);
+    padding: 10px 110px;
+    list-style: none;
+    font-size: 18px;
+    color: rgb(51, 0, 21);
+    
+  }
+  
